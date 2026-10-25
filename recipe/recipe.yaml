@@ -1,5 +1,5 @@
 context:
-  version: "2.26.5"
+  version: "2.26.6"
   numkong_commit: "14daf40059045660775ec39d161f2b51e0a0f2dc"
   fp16_commit: "0a92994d729ff76a58f692d3028ca1b64b145d91"
   stringzilla_commit: "30d3e2129654d8269b3f66726414f9694c834e25"
@@ -10,7 +10,7 @@ package:
 
 source:
   - url: https://github.com/unum-cloud/USearch/archive/refs/tags/v${{ version }}.tar.gz
-    sha256: 96f1ed59f32303e612b2e72c393475696743b49e0832d33e65ad97aacf61d655
+    sha256: a92f5894c98564c04c9028fa9b2f29822e9ee5e94c3f16ad60937e92c77b2f62
   - url: https://github.com/ashvardanian/NumKong/archive/${{ numkong_commit }}.tar.gz
     sha256: 5ecc85f33ba5cd5cd7e1e41e022597f089ecdc6482f4a51a6482b934cee259db
     target_directory: numkong
